@@ -17,16 +17,16 @@ The robot framework was designed using the Subject/Observer object oriented desi
 ### com.wildstangs.autonomous
 Contains the autonomous framework, all autonomous programs and steps. 
   
-### com.wildstangs.config/configfacade
+### com.wildstangs.config/configmanager
 Contains the base objects and singleton for managing configuration parameters from a file
 
 ### com.wildstangs.logger
 Contains the singleton for handling logging. This needs to be used sparingly as printOut's are very slow
 
-### com.wildstangs.inputfacade
+### com.wildstangs.inputmanager
 Contains the subjects and implementations for inputs
 
-### com.wildstangs.outputfacade
+### com.wildstangs.outputmanager
 Contains the subjects and implementations for outputs
 
 ### com.wildstangs.subjects.base
